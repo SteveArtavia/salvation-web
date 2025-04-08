@@ -1,24 +1,84 @@
 :root{
     --color1:white;
     --color2:#9e2020;
-    --color3:black;
+    --color3:rgb(2, 4, 14);
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: white;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.main{
-    margin: 1rem;
+/* COMPONENTES */
+.decor-element{
+    width: 3rem;
+    height: 0.2rem;
+    background-color: var(--color2);
+    margin: 1.5rem 0;
 }
-.main__hero{
-
+p{
+    line-height: 1.5rem;
 }
-
 .versiculo{
     color: var(--color2);
     font-style: italic;
 }
 
+/* SECCIONES */
+
+/* HERO */
+.main{
+    margin: 1rem;
+}
+.main__mensaje__paso{
+    font-size: 5rem;
+    font-weight: bold;
+    font-style: normal;
+}
+.main__hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__hero__title{
+    font-size: 3rem;
+    margin: 0;
+    line-height: 3.2rem;
+}
+.main__hero h3{
+    margin: 2.5rem 0 0 0;
+}
+.seguir-leyendo{
+    text-decoration: none;
+    color: var(--color2);
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+/* SECCION PRINCIPAL */
+.main__mensaje{
+    
+}
+.intro{
+    padding-top: 1.5rem;
+}
+
+
+
+.paso5__oracion{
+    background-color: var(--color2);
+    color:var(--color1);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.paso5__oracion__title{
+    font-size: 1.5rem;
+    margin: 0;
+}
