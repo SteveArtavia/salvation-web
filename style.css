@@ -65,8 +65,14 @@ p{
     color: var(--color2);
     cursor: pointer;
     margin-top: auto;
-    margin-bottom: 2rem;
-    text-align: right;
+    margin-bottom: 6rem;
+    text-align: center;
+    border: 1px solid var(--color2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.paso{
+    margin-bottom: 3rem;
 }
 
 /* SECCION PRINCIPAL */
@@ -102,4 +108,3 @@ footer{
     text-decoration: none;
     color: var(--color1);
 }
-.footer__enlace
