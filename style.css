@@ -42,7 +42,7 @@ p{
     margin: 1rem;
 }
 .main__mensaje__paso{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
     font-style: normal;
 }
@@ -80,9 +80,7 @@ p{
 }
 
 /* SECCION PRINCIPAL */
-.main__mensaje{
-    
-}
+
 .intro{
     padding-top: 1.5rem;
 }
@@ -100,6 +98,16 @@ p{
     margin: 0;
 }
 
+.lista{
+    list-style-type: disc;
+}
+.lista-elemento{
+    margin-top: 2.3rem;
+}
+.consejo{
+    font-weight: bold;
+}
+
 
 
 /* FOOTER */
@@ -107,8 +115,10 @@ footer{
     margin-top: 2rem;
     background-color: var(--color3);
     padding: 1rem;
-    display: flex;
-    gap: 1rem;
+}
+footer p{
+    color: white;
+    text-align: center;
 }
 .footer__enlace{
     text-decoration: none;
