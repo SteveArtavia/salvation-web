@@ -24,12 +24,25 @@ hr{
     background-color: var(--color2);
     margin: 1.5rem 0;
 }
+.separator{
+    background-color: #9e2020;
+    width: 1.5rem;
+    height: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+.dot{
+    background-color: #9e2020;
+    width: 2rem;
+    height: 0.1rem;
+    margin-bottom: 0.5rem;
+}
 p{
     line-height: 1.5rem;
 }
 .versiculo{
     color: var(--color2);
-    font-style: italic;
+    font-size: 0.9rem;
+    font-family: 'JetBrains Mono', monospace;
 }
 .main__mensaje__paso{
     color: var(--color4);
@@ -42,9 +55,10 @@ p{
     margin: 1rem;
 }
 .main__mensaje__paso{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     font-style: normal;
+    color: #9e2020;
 }
 .main__hero{
     height: 100vh;
@@ -103,6 +117,13 @@ p{
 }
 .lista-elemento{
     margin-top: 2.3rem;
+}
+
+#consejos{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 #9c9c9c;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 .consejo{
     font-weight: bold;
